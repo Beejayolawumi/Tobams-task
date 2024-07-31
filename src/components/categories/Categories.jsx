@@ -1,0 +1,66 @@
+import React from "react";
+import style from "./categories.module.css";
+
+const dummyCategories = [
+  {
+    categories: "Breakfast",
+    image: "/src/assets/image 25.png",
+    background: "/src/assets/Rectangle 7.png",
+  },
+  {
+    categories: "Vagan",
+    image: "/src/assets/Group 879.png",
+    background: "/src/assets/Rectangle 7 (1).png",
+  },
+  {
+    categories: "Meat",
+    image: "/src/assets/image 21.png",
+    background: "/src/assets/Rectangle 7 (2).png",
+  },
+  {
+    categories: "Desert",
+    image: "/src/assets/image 22.png",
+    background: "/src/assets/Rectangle 7 (3).png",
+  },
+  {
+    categories: "Lunch",
+    image: "/src/assets/image 23.png",
+    background: "/src/assets/Rectangle 7.png",
+  },
+  {
+    categories: "Chocolate",
+    image: "/src/assets/image 24.png",
+    background: "/src/assets/Rectangle 7.png",
+  },
+];
+
+const Categories = () => {
+  return (
+    <div className={style.mainContainer}>
+      <div>
+        <h3 className={style.categories}>Categories</h3>
+      </div>
+      <div className={style.buttonContainer}>
+        <button className={style.categories_view}>View All Categories</button>
+      </div>
+      {/* <img src="/src/assets/Categories.png" /> */}
+      <div className={style.dummyCategories}>
+        {dummyCategories.map((items, index) => {
+          return (
+            <div key={index}>
+              <div className={style.images}>
+                <img src={items.image} />
+              </div>
+              <div>
+                <img src={items.background} />
+              </div>
+              <div className={style.div_categories}>{items.categories}</div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default Categories;

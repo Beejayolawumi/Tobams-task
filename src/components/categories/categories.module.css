@@ -1,0 +1,64 @@
+.mainContainer {
+  margin-top: 140px;
+  margin-left: 50px;
+  display: flex;
+  /* margin-right: 20px; */
+  /* justify-content: space-between; */
+}
+
+.categories {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58.09px;
+  letter-spacing: -0.04em;
+  color: #000000;
+
+  /* text-align: left; */
+}
+
+/* .buttonContainer {
+} */
+
+.categories_view {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  width: 200px;
+  height: 60px;
+  position: relative;
+  top: 59px;
+  left: 430%;
+  border-radius: 16px 16px;
+  background: #e7fafe;
+  border: none;
+}
+
+.images {
+  margin-left: 40px;
+  position: absolute;
+  top: -30px;
+}
+
+.div_categories {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: #000000;
+}
+
+.dummyCategories {
+  display: flex;
+  position: relative;
+  top: 200px;
+  right: 31%;
+  gap: 35px;
+}
