@@ -8,7 +8,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group.png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 2,
@@ -16,7 +16,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (1).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 3,
@@ -24,7 +24,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (2).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 4,
@@ -32,7 +32,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (3).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 5,
@@ -40,13 +40,13 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (4).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 6,
     images: "/src/assets/Ads.png",
     minutes: "/src/assets/Group 829.png",
-    categories: "/src/assets/Group 830.png",
+    categories: "/imageFolder/Group 830.png",
   },
   {
     index: 7,
@@ -54,7 +54,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (5).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 8,
@@ -62,7 +62,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (6).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
   {
     index: 9,
@@ -70,7 +70,7 @@ const dummyRecipes = [
     images: "/src/assets/Mask Group (7).png",
     minutes: "/src/assets/Group 829.png",
     categories: "/src/assets/Group 830.png",
-    icon: "/src/assets/Group 852.png",
+    icon: "/imageFolder/Group 852.png",
   },
 ];
 
