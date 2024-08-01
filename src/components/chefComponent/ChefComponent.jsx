@@ -24,11 +24,11 @@ const ChefComponent = () => {
         </div>
       </div>
       <div className={style.container}>
-        <img src="/src/assets/portrait-happy-male-chef-dressed-uniform 1.png" />
-        <img src="/src/assets/image 21.png" className={style.red_meat} />
-        <img src="/src/assets/Group 879.png" className={style.vagan} />
-        <img src="/src/assets/image 28.png" className={style.onion} />
-        <img src="/src/assets/image 27.png" className={style.apple} />
+        <img src="/imageFolder/portrait-happy-male-chef-dressed-uniform 1.png" />
+        <img src="/imageFolder/image 21.png" className={style.red_meat} />
+        <img src="/imageFolder/Group 879.png" className={style.vagan} />
+        <img src="/imageFolder/image 28.png" className={style.onion} />
+        <img src="/imageFolder/image 27.png" className={style.apple} />
       </div>
     </div>
   );

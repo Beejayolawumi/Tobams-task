@@ -17,13 +17,13 @@ const dummyNavbar = [
 
 const dummyIcons = [
   {
-    icon: "/src/assets/001-facebook@2x.png",
+    icon: "/imageFolder/001-facebook@2x.png",
   },
   {
-    icon: "/src/assets/003-twitter.png",
+    icon: "/imageFolder/003-twitter.png",
   },
   {
-    icon: "/src/assets/004-instagram.png",
+    icon: "/imageFolder/004-instagram.png",
   },
 ];
 
@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className={style.mainContainer}>
       <h4 className={style.foodie}>
-        <img src="/src/assets/Foodieland..png" />
+        <img src="/imageFolder/Foodieland..png" />
       </h4>
       <div className={style.nav}>
         {dummyNavbar.map((items, index) => {

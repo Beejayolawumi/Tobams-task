@@ -4,33 +4,33 @@ import style from "./categories.module.css";
 const dummyCategories = [
   {
     categories: "Breakfast",
-    image: "/src/assets/image 25.png",
-    background: "/src/assets/Rectangle 7.png",
+    image: "/imageFolder/image 25.png",
+    background: "/imageFolder/Rectangle 7.png",
   },
   {
     categories: "Vagan",
-    image: "/src/assets/Group 879.png",
-    background: "/src/assets/Rectangle 7 (1).png",
+    image: "/imageFolder/Group 879.png",
+    background: "/imageFolder/Rectangle 7 (1).png",
   },
   {
     categories: "Meat",
-    image: "/src/assets/image 21.png",
-    background: "/src/assets/Rectangle 7 (2).png",
+    image: "/imageFolder/image 21.png",
+    background: "/imageFolder/Rectangle 7 (2).png",
   },
   {
     categories: "Desert",
-    image: "/src/assets/image 22.png",
-    background: "/src/assets/Rectangle 7 (3).png",
+    image: "/imageFolder/image 22.png",
+    background: "/imageFolder/Rectangle 7 (3).png",
   },
   {
     categories: "Lunch",
-    image: "/src/assets/image 23.png",
-    background: "/src/assets/Rectangle 7.png",
+    image: "/imageFolder/image 23.png",
+    background: "/imageFolder/Rectangle 7.png",
   },
   {
     categories: "Chocolate",
-    image: "/src/assets/image 24.png",
-    background: "/src/assets/Rectangle 7.png",
+    image: "/imageFolder/image 24.png",
+    background: "/imageFolder/Rectangle 7.png",
   },
 ];
 
