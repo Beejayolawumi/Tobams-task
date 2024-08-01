@@ -1,4 +1,85 @@
 .recipesContainer {
-  margin-top: 140px;
+  width: 80%;
+  height: 100vh;
+  /* top: 1475px;
+  left: 80px; */
+  margin-top: 100px;
   margin-left: 50px;
+}
+
+.simple {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
+.simple_h3 {
+  font-family: "Inter";
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 58.09px;
+  letter-spacing: -0.04em;
+}
+
+.para_container {
+  position: relative;
+  bottom: 28px;
+}
+
+.simple_para {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #00000099;
+}
+
+.dummyRecipes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  position: relative;
+  top: 300px;
+  left: 30px;
+}
+
+.food {
+  font-family: "Inter";
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+}
+
+.minutes {
+  margin-top: 60px;
+  margin-left: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.background_image {
+  width: 370px;
+  height: 180px;
+  top: 1709px;
+  left: 80px;
+  border-radius: 30px 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
+
+.background_image_six {
+  background: none;
+}
+
+.minutes_six {
+  display: none;
+}
+
+.icon {
+  margin-left: 300px;
+  position: relative;
+  top: -350px;
 }

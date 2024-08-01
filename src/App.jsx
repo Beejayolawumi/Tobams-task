@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Categories from "./components/categories/Categories";
 import RecipesPage from "./components/recipesPage/RecipesPage";
+import ChefComponent from "./components/chefComponent/ChefComponent";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Navbar />
         <Header />
         <Categories />
-        {/* <RecipesPage /> */}
+        <RecipesPage />
+        <ChefComponent />
       </div>
     </>
   );

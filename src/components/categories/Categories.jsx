@@ -43,7 +43,6 @@ const Categories = () => {
       <div className={style.buttonContainer}>
         <button className={style.categories_view}>View All Categories</button>
       </div>
-      {/* <img src="/src/assets/Categories.png" /> */}
       <div className={style.dummyCategories}>
         {dummyCategories.map((items, index) => {
           return (
